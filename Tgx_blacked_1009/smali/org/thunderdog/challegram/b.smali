@@ -2329,7 +2329,7 @@
     .line 2983
     iget-boolean v0, p0, Lorg/thunderdog/challegram/b;->v:Z
 
-    if-eq v0, v3, :cond_9
+    if-eq v0, v3, :cond_8
 
     .line 2984
     iput-boolean v3, p0, Lorg/thunderdog/challegram/b;->v:Z
@@ -2337,7 +2337,7 @@
     .line 2985
     iget v0, p0, Lorg/thunderdog/challegram/b;->u:I
 
-    if-eqz v3, :cond_8
+    if-eqz v3, :cond_9
 
     or-int/lit8 v0, v0, 0x10
 
@@ -4835,7 +4835,7 @@
     .line 478
     iget-boolean v0, p0, Lorg/thunderdog/challegram/b;->v:Z
 
-    if-eq v0, v2, :cond_1
+    if-eq v0, v2, :cond_2
 
     .line 479
     iput-boolean v2, p0, Lorg/thunderdog/challegram/b;->v:Z
@@ -4847,7 +4847,7 @@
     :cond_1
     iput p1, p0, Lorg/thunderdog/challegram/b;->u:I
 
-    if-eqz p2, :cond_2
+    if-eqz p2, :cond_1
 
     .line 484
     iput p1, p0, Lorg/thunderdog/challegram/b;->t:I
