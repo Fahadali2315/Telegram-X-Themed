@@ -496,7 +496,7 @@
     return p0
 
     :pswitch_data_0
-    .packed-switch 0x7f07041a
+    .packed-switch 0x7f070415
         :pswitch_0
         :pswitch_0
     .end packed-switch
