@@ -5,8 +5,8 @@
         <item name="android:windowActionBarOverlay">true</item>
         <item name="android:datePickerStyle">@style/DatePickerTheme</item>
         <item name="android:colorControlActivated">#ff5b95c2</item>
-        <item name="android:colorPrimary">#ff222e3c</item>
-        <item name="android:colorPrimaryDark">#ff2f6284</item>
+        <item name="android:colorPrimary">#ff000000</item>
+        <item name="android:colorPrimaryDark">#ff000000</item>
         <item name="android:navigationBarColor">#ff000000</item>
         <item name="android:timePickerStyle">@style/TimePickerTheme</item>
         <item name="android:timePickerDialogTheme">@style/DialogTheme</item>
@@ -18,15 +18,17 @@
     <style name="DatePickerTheme" parent="@android:style/Widget.Material.Light.DatePicker">
         <item name="android:headerBackground">#ff3f83b1</item>
     </style>
-    <style name="DialogTheme" parent="@android:style/Theme.Material.Light.Dialog.Alert">
-        <item name="android:textColorLink">#ff039be5</item>
-        <item name="android:colorAccent">#ff039be5</item>
+    <style name="DialogTheme" parent="@android:style/Theme.Material.Dialog.Alert">
+        <item name="android:colorBackground">#ff000000</item>
+        <item name="android:textColorLink">#FF2196F3</item>
+        <item name="android:headerBackground">#ff000000</item>
+        <item name="android:colorAccent">#FF2196F3</item>
     </style>
     <style name="DialogThemeDark" parent="@android:style/Theme.Material.Dialog.Alert">
-        <item name="android:colorBackground">#ff1c2733</item>
-        <item name="android:textColorLink">#ff61a9e1</item>
-        <item name="android:headerBackground">#ff222e3c</item>
-        <item name="android:colorAccent">#ff64cefd</item>
+        <item name="android:colorBackground">#ff000000</item>
+        <item name="android:textColorLink">#FF2196F3</item>
+        <item name="android:headerBackground">#ff000000</item>
+        <item name="android:colorAccent">#FF2196F3</item>
     </style>
     <style name="LightEditTextTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
         <item name="android:colorControlActivated">#ffdadada</item>
