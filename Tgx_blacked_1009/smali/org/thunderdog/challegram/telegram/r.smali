@@ -8228,7 +8228,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f070398
+    const p1, 0x7f070375
 
     :goto_0
     invoke-static {p1, v0}, Lorg/thunderdog/challegram/j/c;->a(II)I
@@ -8735,7 +8735,7 @@
 
     move-result v0
 
-    const v1, 0x7f070398
+    const v1, 0x7f070375
 
     .line 1665
     invoke-static {v1, v0}, Lorg/thunderdog/challegram/j/c;->a(II)I
