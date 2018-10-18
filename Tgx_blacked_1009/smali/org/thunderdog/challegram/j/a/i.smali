@@ -5,208 +5,646 @@
 
 # direct methods
 .method public static a(I)I
-    .locals 6
+    .locals 15
 
-    const v0, -0x31b14
+    const v0, -0x16E19D
 
-    const v1, -0x27e4a0
+    const v1, -0x637b6
 
-    const v2, -0x74430
+    const v2, -0x434c07
 
-    const v3, -0xf9d6e
+    const v3, -0xf868b
 
-    const v4, -0x16e19d
+    const v4, -0x1e7e54
 
-    const v5, -0x13bf86
+    const v5, -0xb6097
 
-    sparse-switch p0, :sswitch_data_0
+    const v6, -0x733a92
 
-    .line 114
+    const v7, -0x933824
+
+    const v8, -0x7f3e06
+
+    const/high16 v9, -0x1000000
+
+    const v10, -0x959596
+
+    const v11, -0x5f5f60
+
+    const v12, -0x4d000000
+
+    const/4 v13, -0x1
+
+    const v14, -0x16E19D
+
+    packed-switch p0, :pswitch_data_0
+
+    .line 378
+    :pswitch_0
     invoke-static {p0}, Lorg/thunderdog/challegram/j/a/a;->a(I)I
 
     move-result p0
 
     return p0
 
-    :sswitch_0
-    return v2
-
-    :sswitch_1
-    return v2
-
-    :sswitch_2
-    return v5
-
-    :sswitch_3
-    return v2
-
-    :sswitch_4
-    return v5
-
-    :sswitch_5
-    return v2
-
-    :sswitch_6
-    return v3
-
-    :sswitch_7
-    return v5
-
-    :sswitch_8
-    return v2
-
-    :sswitch_9
-    return v5
-
-    :sswitch_a
-    return v5
-
-    :sswitch_b
-    return v3
-
-    :sswitch_c
-    return v5
-
-    :sswitch_d
-    return v3
-
-    :sswitch_e
-    return v3
-
-    :sswitch_f
-    const p0, -0x4271c
+    :pswitch_1
+    const p0, -0xba956d
 
     return p0
 
-    :sswitch_10
-    return v3
+    :pswitch_2
+    return v10
 
-    :sswitch_11
-    const p0, 0x10ec407a
+    :pswitch_3
+    return v13
+
+    :pswitch_4
+    const p0, -0x5F5F60
 
     return p0
 
-    :sswitch_12
-    return v4
+    :pswitch_5
+    return v14
 
-    :sswitch_13
-    return v4
+    :pswitch_6
+    const p0, -0x575758
 
-    :sswitch_14
-    return v5
+    return p0
 
-    :sswitch_15
-    return v4
+    :pswitch_7
+    return v10
 
-    :sswitch_16
-    return v4
+    :pswitch_8
+    const p0, -0x33DE690D
 
-    :sswitch_17
+    return p0
+
+    :pswitch_9
+    return v14
+
+    :pswitch_a
+    const p0, -0xd76d2c
+
+    return p0
+
+    :pswitch_b
+    const p0, -0x5F5F60
+
+    return p0
+
+    :pswitch_c
+    return v14
+
+    :pswitch_d
+    return v11
+
+    :pswitch_e
+    const p0, -0x1bacaa
+
+    return p0
+
+    :pswitch_f
+    const p0, -0xd5d5d6
+
+    return p0
+
+    :pswitch_10
+    return v14
+
+    :pswitch_11
+    return v14
+
+    :pswitch_12
+    const p0, -0x871d82
+
+    return p0
+
+    :pswitch_13
+    return v11
+
+    :pswitch_14
+    return v11
+
+    :pswitch_15
+    return v11
+
+    :pswitch_16
+    return v13
+
+    :pswitch_17
+    const p0, -0x1000000
+
+    return p0
+
+    :pswitch_18
+    const p0, -0x1000000
+
+    return p0
+
+    :pswitch_19
+    return v10
+
+    :pswitch_1a
+    return v14
+
+    :pswitch_1b
+    return v13
+
+    :pswitch_1c
+    return v14
+
+    :pswitch_1d
+    return v14
+
+    :pswitch_1e
+    return v14
+
+    :pswitch_1f
+    const p0, -0xe9e0d8
+
+    return p0
+
+    :pswitch_20
+    const p0, -0x6F000001
+
+    return p0
+
+    :pswitch_21
+    const/high16 p0, -0x70000000
+
+    return p0
+
+    :pswitch_22
+    return v14
+
+    :pswitch_23
+    return v13
+
+    :pswitch_24
+    return v1
+
+    :pswitch_25
+    return v2
+
+    :pswitch_26
     return v3
 
-    :sswitch_18
-    return v5
-
-    :sswitch_19
+    :pswitch_27
     return v4
 
-    :sswitch_1a
+    :pswitch_28
     return v5
 
-    :sswitch_1b
-    return v5
+    :pswitch_29
+    return v6
 
-    :sswitch_1c
-    return v5
+    :pswitch_2a
+    return v7
 
-    :sswitch_1d
+    :pswitch_2b
+    return v8
+
+    :pswitch_2c
+    const p0, 0x1ffffff
+
+    return p0
+
+    :pswitch_2d
+    return v14
+
+    :pswitch_2e
+    return v9
+
+    :pswitch_2f
+    const p0, -0x1000000
+
+    return p0
+
+    :pswitch_30
+    const p0, -0x60607
+
+    return p0
+
+    :pswitch_31
+    return v12
+
+    :pswitch_32
+    const p0, -0x454546
+
+    return p0
+
+    :pswitch_33
+    const p0, -0x5F5F60
+
+    return p0
+
+    :pswitch_34
+    return v11
+
+    :pswitch_35
+    return v13
+
+    :pswitch_36
+    const p0, -0x30304
+
+    return p0
+
+    :pswitch_37
+    const p0, -0x7e7e7f
+
+    return p0
+
+    :pswitch_38
+    return v13
+
+    :pswitch_39
+    return v13
+
+    :pswitch_3a
+    return v14
+
+    :pswitch_3b
+    return v14
+
+    :pswitch_3c
+    return v14
+
+    :pswitch_3d
+    const p0, -0xaba49d
+
+    return p0
+
+    :pswitch_3e
+    return v11
+
+    :pswitch_3f
+    return v13
+
+    :pswitch_40
+    return v13
+
+    :pswitch_41
+    return v13
+
+    :pswitch_42
+    return v12
+
+    :pswitch_43
+    const p0, -0x6F000001
+
+    return p0
+
+    :pswitch_44
+    return v13
+
+    :pswitch_45
+    return v13
+
+    :pswitch_46
+    const p0, -0x1000000
+
+    return p0
+
+    :pswitch_47
+    return v12
+
+    :pswitch_48
+    const p0, -0xdfdfe0
+
+    return p0
+
+    :pswitch_49
+    return v14
+
+    :pswitch_4a
+    return v12
+
+    :pswitch_4b
+    return v14
+
+    :pswitch_4c
+    return v14
+
+    :pswitch_4d
     return v0
 
-    :sswitch_1e
-    return v4
+    :pswitch_4e
+    return v13
 
-    :sswitch_1f
-    return v5
+    :pswitch_4f
+    return v13
 
-    :sswitch_20
-    return v1
+    :pswitch_50
+    const p0, -0x4d000000
 
-    :sswitch_21
-    return v5
+    return p0
 
-    :sswitch_22
-    return v1
+    :pswitch_51
+    return v12
 
-    :sswitch_23
-    return v5
+    :pswitch_52
+    const p0, -0x4d000000
 
-    :sswitch_24
-    return v4
+    return p0
 
-    :sswitch_25
+    :pswitch_53
+    const p0, -0x5F5F60
+
+    return p0
+
+    :pswitch_54
+    return v14
+
+    :pswitch_55
+    return v12
+
+    :pswitch_56
+    const p0, -0x1000000    # -1.9683E38f
+
+    return p0
+
+    :pswitch_57
+    const p0, -0x8e8984
+
+    return p0
+
+    :pswitch_58
+    const p0, -0x16E19D
+
+    return p0
+
+    :pswitch_59
+    const p0, -0x918d89
+
+    return p0
+
+    :pswitch_5a
     return v0
 
-    :sswitch_26
+    :pswitch_5b
+    return v10
+
+    :pswitch_5c
+    return v14
+
+    :pswitch_5d
+    const p0, -0x894007
+
+    return p0
+
+    :pswitch_5e
+    return v11
+
+    :pswitch_5f
+    return v12
+
+    :pswitch_60
+    return v9
+
+    :pswitch_61
+    return v13
+
+    :pswitch_62
+    const p0, -0x2cd0d1
+
+    return p0
+
+    :pswitch_63
+    return v9
+
+    :pswitch_64
     return v1
 
-    :sswitch_27
+    :pswitch_65
+    return v2
+
+    :pswitch_66
+    return v3
+
+    :pswitch_67
+    return v4
+
+    :pswitch_68
     return v5
 
-    :sswitch_data_0
-    .sparse-switch
-        0x7f070353 -> :sswitch_27
-        0x7f070364 -> :sswitch_26
-        0x7f07036a -> :sswitch_25
-        0x7f07036c -> :sswitch_24
-        0x7f07036d -> :sswitch_23
-        0x7f070372 -> :sswitch_22
-        0x7f070374 -> :sswitch_22
-        0x7f070375 -> :sswitch_21
-        0x7f070377 -> :sswitch_20
-        0x7f07037a -> :sswitch_1f
-        0x7f07037c -> :sswitch_1e
-        0x7f070380 -> :sswitch_1d
-        0x7f070382 -> :sswitch_1c
-        0x7f070384 -> :sswitch_1b
-        0x7f070385 -> :sswitch_1a
-        0x7f070386 -> :sswitch_1a
-        0x7f070388 -> :sswitch_19
-        0x7f07038c -> :sswitch_18
-        0x7f070393 -> :sswitch_17
-        0x7f070394 -> :sswitch_17
-        0x7f070398 -> :sswitch_16
-        0x7f0703a9 -> :sswitch_15
-        0x7f0703aa -> :sswitch_15
-        0x7f0703ab -> :sswitch_14
-        0x7f0703ac -> :sswitch_14
-        0x7f0703ad -> :sswitch_13
-        0x7f0703af -> :sswitch_13
-        0x7f0703c0 -> :sswitch_12
-        0x7f0703c2 -> :sswitch_11
-        0x7f0703cc -> :sswitch_10
-        0x7f0703cd -> :sswitch_18
-        0x7f0703e0 -> :sswitch_17
-        0x7f0703e3 -> :sswitch_1b
-        0x7f0703e5 -> :sswitch_f
-        0x7f0703e6 -> :sswitch_e
-        0x7f0703e7 -> :sswitch_d
-        0x7f0703e8 -> :sswitch_c
-        0x7f0703ea -> :sswitch_b
-        0x7f0703ef -> :sswitch_1b
-        0x7f0703fa -> :sswitch_a
-        0x7f0703fc -> :sswitch_9
-        0x7f0703fd -> :sswitch_9
-        0x7f0703fe -> :sswitch_8
-        0x7f0703ff -> :sswitch_8
-        0x7f070401 -> :sswitch_7
-        0x7f070403 -> :sswitch_6
-        0x7f070404 -> :sswitch_5
-        0x7f070405 -> :sswitch_4
-        0x7f070406 -> :sswitch_23
-        0x7f070407 -> :sswitch_27
-        0x7f070408 -> :sswitch_3
-        0x7f07040f -> :sswitch_2
-        0x7f070410 -> :sswitch_1
-        0x7f070411 -> :sswitch_0
-    .end sparse-switch
+    :pswitch_69
+    return v6
+
+    :pswitch_6a
+    return v7
+
+    :pswitch_6b
+    return v8
+
+    :pswitch_6c
+    return v12
+
+    nop
+
+    :pswitch_data_0
+    .packed-switch 0x7f070351
+        :pswitch_6c
+        :pswitch_6c
+        :pswitch_0
+        :pswitch_6c
+        :pswitch_0
+        :pswitch_6c
+        :pswitch_6c
+        :pswitch_6b
+        :pswitch_6a
+        :pswitch_0
+        :pswitch_69
+        :pswitch_68
+        :pswitch_67
+        :pswitch_66
+        :pswitch_0
+        :pswitch_65
+        :pswitch_64
+        :pswitch_63
+        :pswitch_62
+        :pswitch_0
+        :pswitch_61
+        :pswitch_60
+        :pswitch_5f
+        :pswitch_0
+        :pswitch_5e
+        :pswitch_5f
+        :pswitch_0
+        :pswitch_5e
+        :pswitch_5d
+        :pswitch_0
+        :pswitch_0
+        :pswitch_0
+        :pswitch_0
+        :pswitch_5c
+        :pswitch_5b
+        :pswitch_5c
+        :pswitch_5a
+        :pswitch_59
+        :pswitch_58
+        :pswitch_57
+        :pswitch_56
+        :pswitch_55
+        :pswitch_0
+        :pswitch_54
+        :pswitch_53
+        :pswitch_0
+        :pswitch_52
+        :pswitch_51
+        :pswitch_50
+        :pswitch_4f
+        :pswitch_4e
+        :pswitch_4d
+        :pswitch_4c
+        :pswitch_4c
+        :pswitch_0
+        :pswitch_4d
+        :pswitch_0
+        :pswitch_0
+        :pswitch_0
+        :pswitch_4b
+        :pswitch_0
+        :pswitch_4a
+        :pswitch_0
+        :pswitch_0
+        :pswitch_0
+        :pswitch_0
+        :pswitch_49
+        :pswitch_49
+        :pswitch_0
+        :pswitch_56
+        :pswitch_48
+        :pswitch_47
+        :pswitch_46
+        :pswitch_45
+        :pswitch_46
+        :pswitch_44
+        :pswitch_0
+        :pswitch_0
+        :pswitch_45
+        :pswitch_43
+        :pswitch_42
+        :pswitch_41
+        :pswitch_40
+        :pswitch_3f
+        :pswitch_0
+        :pswitch_3e
+        :pswitch_3e
+        :pswitch_3d
+        :pswitch_3c
+        :pswitch_3c
+        :pswitch_3b
+        :pswitch_3b
+        :pswitch_3a
+        :pswitch_39
+        :pswitch_3a
+        :pswitch_38
+        :pswitch_37
+        :pswitch_36
+        :pswitch_35
+        :pswitch_34
+        :pswitch_35
+        :pswitch_33
+        :pswitch_34
+        :pswitch_34
+        :pswitch_32
+        :pswitch_35
+        :pswitch_31
+        :pswitch_30
+        :pswitch_2f
+        :pswitch_35
+        :pswitch_2e
+        :pswitch_2d
+        :pswitch_2c
+        :pswitch_2c
+        :pswitch_2b
+        :pswitch_2a
+        :pswitch_29
+        :pswitch_28
+        :pswitch_27
+        :pswitch_26
+        :pswitch_25
+        :pswitch_24
+        :pswitch_23
+        :pswitch_22
+        :pswitch_0
+        :pswitch_0
+        :pswitch_0
+        :pswitch_21
+        :pswitch_0
+        :pswitch_0
+        :pswitch_0
+        :pswitch_0
+        :pswitch_0
+        :pswitch_0
+        :pswitch_0
+        :pswitch_0
+        :pswitch_0
+        :pswitch_0
+        :pswitch_0
+        :pswitch_0
+        :pswitch_0
+        :pswitch_0
+        :pswitch_20
+        :pswitch_0
+        :pswitch_0
+        :pswitch_1f
+        :pswitch_0
+        :pswitch_0
+        :pswitch_0
+        :pswitch_1e
+        :pswitch_1d
+        :pswitch_1c
+        :pswitch_1b
+        :pswitch_1a
+        :pswitch_19
+        :pswitch_18
+        :pswitch_0
+        :pswitch_0
+        :pswitch_4d
+        :pswitch_17
+        :pswitch_0
+        :pswitch_0
+        :pswitch_0
+        :pswitch_0
+        :pswitch_16
+        :pswitch_15
+        :pswitch_14
+        :pswitch_13
+        :pswitch_12
+        :pswitch_11
+        :pswitch_18
+        :pswitch_10
+        :pswitch_10
+        :pswitch_f
+        :pswitch_f
+        :pswitch_e
+        :pswitch_1e
+        :pswitch_d
+        :pswitch_c
+        :pswitch_b
+        :pswitch_a
+        :pswitch_2d
+        :pswitch_9
+        :pswitch_8
+        :pswitch_7
+        :pswitch_6
+        :pswitch_0
+        :pswitch_0
+        :pswitch_0
+        :pswitch_5
+        :pswitch_5
+        :pswitch_4
+        :pswitch_4
+        :pswitch_0
+        :pswitch_0
+        :pswitch_3
+        :pswitch_0
+        :pswitch_0
+        :pswitch_0
+        :pswitch_0
+        :pswitch_0
+        :pswitch_2
+        :pswitch_1
+    .end packed-switch
 .end method
