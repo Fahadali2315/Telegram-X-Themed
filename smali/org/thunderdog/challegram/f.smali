@@ -7,7 +7,7 @@
 .method public static a(I)I
     .locals 15
 
-    const v0, -0xDE690D
+    const v0, -0x9c3103
 
     const v1, -0x637b6
 
@@ -31,11 +31,11 @@
 
     const v11, -0x5f5f60
 
-    const v12, -0x4d000000
+    const v12, -0xdededf
 
     const/4 v13, -0x1
 
-    const v14, -0xDE690D
+    const v14, -0x9b3103
 
     packed-switch p0, :pswitch_data_0
 
@@ -59,7 +59,7 @@
     return v13
 
     :pswitch_4
-    const p0, -0x5F5F60
+    const p0, -0xdab3a2
 
     return p0
 
@@ -75,7 +75,7 @@
     return v10
 
     :pswitch_8
-    const p0, -0x33DE690D
+    const p0, -0xbe8a69
 
     return p0
 
@@ -88,7 +88,7 @@
     return p0
 
     :pswitch_b
-    const p0, -0x5F5F60
+    const p0, -0xcececf
 
     return p0
 
@@ -132,12 +132,12 @@
     return v13
 
     :pswitch_17
-    const p0, -0x1000000
+    const p0, -0xcececf
 
     return p0
 
     :pswitch_18
-    const p0, -0x1000000
+    const p0, -0xc5c5c6
 
     return p0
 
@@ -165,12 +165,12 @@
     return p0
 
     :pswitch_20
-    const p0, -0x6F000001
+    const p0, 0xcffffff
 
     return p0
 
     :pswitch_21
-    const/high16 p0, -0x70000000
+    const/high16 p0, 0x70000000
 
     return p0
 
@@ -216,7 +216,7 @@
     return v9
 
     :pswitch_2f
-    const p0, -0x1000000
+    const p0, -0xbbbbbc
 
     return p0
 
@@ -234,7 +234,7 @@
     return p0
 
     :pswitch_33
-    const p0, -0x5F5F60
+    const p0, -0xd9d9da
 
     return p0
 
@@ -290,7 +290,7 @@
     return v12
 
     :pswitch_43
-    const p0, -0x6F000001
+    const p0, 0x10ffffff
 
     return p0
 
@@ -301,7 +301,7 @@
     return v13
 
     :pswitch_46
-    const p0, -0x1000000
+    const p0, -0xbbbbbc
 
     return p0
 
@@ -335,7 +335,7 @@
     return v13
 
     :pswitch_50
-    const p0, -0x4d000000
+    const p0, 0x40a0a0a0
 
     return p0
 
@@ -343,12 +343,12 @@
     return v12
 
     :pswitch_52
-    const p0, -0x4d000000
+    const p0, 0x40a0a0a0
 
     return p0
 
     :pswitch_53
-    const p0, -0x5F5F60
+    const p0, -0xc5c5c6
 
     return p0
 
@@ -359,7 +359,7 @@
     return v12
 
     :pswitch_56
-    const p0, -0x1000000    # -1.9683E38f
+    const p0, -0xebebec    # -1.9683E38f
 
     return p0
 
@@ -369,7 +369,7 @@
     return p0
 
     :pswitch_58
-    const p0, -0xDE690D
+    const p0, -0xb0561a
 
     return p0
 
